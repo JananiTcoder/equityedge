@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(superpowers:brainstorming)",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd EquityEdge MVP implementation design document\n\nCaptures all design decisions from brainstorming session:\n- Tailwind v4 CSS-first configuration approach\n- Full dark mode support with toggle\n- Comprehensive mock data for 15-20 Indian companies\n- AI assistant with mock responses\n- Recharts with full interactivity\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Skill(superpowers:write-plan)",
+      "Bash(git commit:*)",
+      "Skill(superpowers:execute-plan)",
+      "Skill(superpowers:executing-plans)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:21st.dev)",
+      "WebSearch",
+      "WebFetch(domain:www.nseindia.com)",
+      "Bash(ls:*)",
+      "Bash(cat:*)"
+    ]
+  }
+}
